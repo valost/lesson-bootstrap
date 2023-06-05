@@ -1,6 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.block {
+    background-color: lightgray;
+    border: 3px solid lightslategray;
+    padding: 20px 30px;
 }
-
