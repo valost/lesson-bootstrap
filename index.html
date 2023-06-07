@@ -9,7 +9,7 @@
     <title>Bootstrap</title>
 </head>
 <body>
-    <h1 class="text-center">Hello</h1>
+    <h1 class="text-center mb-3">Hello</h1>
     <div class="container">
         <div class="row">
             <div class="col-xl-3 col-lg-6 col-md-8 col-sm-6">
@@ -133,6 +133,40 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
+    </div>
+
+    <p>
+        <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample">Click me</a>
+    </p>
+    <div class="collapse" id="collapseExample">
+        <div class="card card-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, nam!</div>
+    </div>
+
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header" id="headID">
+                <h5>
+                    <button class="btn btn-warning" data-toggle="collapse" data-target="#collapseFirst">Click Me</button>
+                </h5>
+            </div>
+        </div>
+
+        <div id="collapseFirst" class="collapse show">
+            <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, itaque odio. Doloremque error repudiandae ipsa natus consequuntur distinctio saepe ducimus necessitatibus consequatur, dicta obcaecati, tenetur earum ex nesciunt sit beatae eaque quaerat illo similique reiciendis facere odit. Dolor, placeat est.
+            </div>
+        </div>
+    </div>
+
+    <div class="drop-down">
+        <button class="btn btn-danger dropdown-toggle" type="button" aria-haspopup="true" id="dropdownMenuButton" data-toggle="dropdown">
+            Dropdown
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Link1</a>
+            <a class="dropdown-item" href="#">Link2</a>
+            <a class="dropdown-item" href="#">Link3</a>
+        </div>
     </div>
 
 
